@@ -34,7 +34,7 @@ public class Usuario {
     private String senha;
     @ElementCollection(fetch = FetchType.EAGER)
     @CollectionTable(
-            name = "usuario_role",
+            name = "usuario_roles",
             joinColumns = @JoinColumn(
                     name = "usuario_id")
     )
